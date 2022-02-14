@@ -110,7 +110,7 @@ body{
    margin-left: 2rem;
 }
 .main .web{
-    background-color:whitesmoke
+    background-color:whitesmoke;
    width: 50%;
    position: relative;
    display: flex;
