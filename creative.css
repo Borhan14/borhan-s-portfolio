@@ -109,3 +109,11 @@ body{
     font-size: 2rem;
    margin-left: 2rem;
 }
+.web-back{
+   /* background-image: url(./web.png);*/
+    /*background-size: 10rem 15rem;*/
+    width: 35rem;
+    background-repeat: no-repeat;
+    border: 2px;
+    /*padding: 20rem 25rem;   */
+}
