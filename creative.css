@@ -56,7 +56,7 @@ body{
     display: flex;
     flex-direction: column;
     background-color: white;
-    width: 92%;
+    /*width: 92%;*/
 }
 .ic{
     position: fixed;
@@ -109,11 +109,65 @@ body{
     font-size: 2rem;
    margin-left: 2rem;
 }
+.main .web{
+    background-color:whitesmoke
+   width: 50%;
+   position: relative;
+   display: flex;
+}
 .web-back{
    /* background-image: url(./web.png);*/
     /*background-size: 10rem 15rem;*/
-    width: 35rem;
+    width: 30rem;
     background-repeat: no-repeat;
-    border: 2px;
+    border: 0px;
+    margin-top: 0;
+    /*padding: 4rem 0rem 0rem 4rem;*/
+    margin: 0 auto;
     /*padding: 20rem 25rem;   */
+}
+.web-title{
+    text-decoration: none;
+    color: black;
+    font-size: 2rem; 
+    font-weight: 900;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   /* padding: 2rem 0 2rem 1rem;*/
+    /*text-align: left;*/
+  
+}
+.web-title:hover{
+    color: aquamarine;
+}
+.main .web-fashion{
+    display: flex;
+   /* width: 92%;*/
+}
+.fashion-back{
+    width: 40rem;
+    background-repeat: no-repeat;
+    border: 5px;
+    margin-top: 0;
+    /*padding: 4rem 0rem 0rem 4rem;*/
+    margin: 0 auto;
+}
+.fashion{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: brown;
+}
+.fashion-title{
+    text-decoration: none;
+    transform: rotate(-90deg);
+    font-size: 2rem;
+    color: azure;
+}
+.fashion-title:hover{
+    color: yellow;
 }
