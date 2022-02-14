@@ -5,7 +5,7 @@
 }
 body{
     background-color: wheat;
-    background: linear-gradient(to left right, wheat)
+    background: linear-gradient(to left right, wheat);
 }
 .main{
     display: flex;
@@ -76,7 +76,7 @@ body{
     color: rgb(255, 51, 0);
 }
 .about-me{
-    background-color: rgb(241, 197, 204);
+    background-color: rgb(238, 143, 159);
 }
 .me{
     display: flex;
@@ -90,6 +90,26 @@ body{
     padding: 4rem 5rem;
     font-size: 2rem;
     text-align: center;
+}
+.borhan{
+    width: 18rem;
+    position: absolute;
+    top: 1rem;
+    right: 5rem;
+    border-bottom: 3px solid;
+    border-color: aqua;
+}
+.mail{
+    /* width: 15rem;*/
+    position: absolute;
+    top: 10rem;
+    right: 20rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    color: azure; 
+}
+.mail:hover{
+    color: blue;
 }
 .wlc{
     margin-left: 10rem;
@@ -167,6 +187,7 @@ body{
     transform: rotate(-90deg);
     font-size: 2rem;
     color: azure;
+    margin-left: 0.5rem;
 }
 .fashion-title:hover{
     color: yellow;
