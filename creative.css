@@ -192,3 +192,22 @@ body{
 .fashion-title:hover{
     color: yellow;
 }
+.app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(10, 85, 99);
+   background: linear-gradient(to left right, rgb(10, 85, 99), rgb(10, 85, 99));;
+}
+.app-icon{
+    margin-top: 3rem;
+}
+.app-icon:hover{
+    
+}
+.app-title{
+    padding: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blanchedalmond;
+}
