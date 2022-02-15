@@ -77,7 +77,8 @@ body{
     color: rgb(255, 51, 0);
 }
 .about-me{
-    background-color: rgb(238, 143, 159);
+    background-color: rgba(240, 228, 60, 0.918);
+    background:linear-gradient(to left right, rgba(240, 228, 60, 0.918));
 }
 .me{
     display: flex;
