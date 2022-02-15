@@ -71,6 +71,7 @@ body{
     cursor: pointer;
      text-decoration: none;
      color: rgb(0, 0, 0);
+     font-family: 'Festive', cursive;
 }
 .icon:hover{
     color: rgb(255, 51, 0);
@@ -302,4 +303,53 @@ body{
 .name{
     font-weight: 900;
     color: brown;
+}
+.dm{
+    padding: 5rem;
+    background-color: orangered;
+    font-size: 3rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: aliceblue;
+    text-shadow: 1rem;
+}
+.dm-box{
+    height: 5rem;
+    width: 40rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    color: black;
+    border: 2px;
+    border-radius: 2rem;
+}
+
+.dm-btn{
+    font-size: 1rem;
+    font-weight: 700;
+    padding: 1rem 2rem;
+    border: 2px;
+    border-radius: 2rem;
+    background-color: red;
+    color: azure;
+}
+.dm-btn:hover{
+    background-color: aqua;
+}
+footer{
+    background-color: aqua;
+    padding: 1.5rem;
+}
+.foot-ic{
+    font-size: 2rem;
+    color: white;
+}
+.rights{
+    font-size: 1rem;
+}
+.design{
+    margin-left: 35rem;
+    font-size: 1.2rem;
+}
+.designer-name{
+    color: rgb(230, 28, 28);
 }
