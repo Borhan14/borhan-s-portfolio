@@ -250,6 +250,11 @@ body{
     gap: 1.5rem;
     
 }
+.project-head{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(26, 71, 71);
+}
 .work{
     display: flex;
     gap: 1rem;
