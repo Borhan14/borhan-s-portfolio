@@ -16,7 +16,7 @@ body{
 .main .nav{
     top: 0;
     right: 0;
-    height: 100vh;
+    height: 100%;
     background-color: aqua;
     position: fixed;
     display: flex;
